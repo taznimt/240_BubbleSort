@@ -67,6 +67,12 @@ void display() {
 
 int main()
 {
+    input(); //memanggil prosedur untuk menginput data
+    bubbleSortArray(); //memanggil prosedur bubblesort untuk proses mengurutkan data
+    display(); //memanggil prosedur yang telah diurutkan
+    system("pause");
+
+    return 0;
 	
 
 }
